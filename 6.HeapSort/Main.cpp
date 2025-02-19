@@ -54,7 +54,7 @@ void HeapSort(std::vector<int>& array)
     for (int ix = length - 1; ix > 0; --ix)
     {
         std::swap(array[0], array[ix]);
-        heapify(array, ix, 0);
+        heapify(array, ix, 0);      
     }
 }
 
